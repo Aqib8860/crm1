@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Cricket/.idea/Cricket.iml" filepath="$PROJECT_DIR$/../Cricket/.idea/Cricket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Doorstep-Delhi-Back-end-main/.idea/Doorstep-Delhi-Back-end-main.iml" filepath="$PROJECT_DIR$/../Doorstep-Delhi-Back-end-main/.idea/Doorstep-Delhi-Back-end-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ImageGallery/.idea/ImageGallery.iml" filepath="$PROJECT_DIR$/../ImageGallery/.idea/ImageGallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LeadBack-end/.idea/LeadBack-end.iml" filepath="$PROJECT_DIR$/../LeadBack-end/.idea/LeadBack-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Product/.idea/Product.iml" filepath="$PROJECT_DIR$/../Product/.idea/Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../awss3demo/.idea/awss3demo.iml" filepath="$PROJECT_DIR$/../awss3demo/.idea/awss3demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/crm1.iml" filepath="$PROJECT_DIR$/.idea/crm1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ecommerce/.idea/ecommerce.iml" filepath="$PROJECT_DIR$/../ecommerce/.idea/ecommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gym_backend-development/.idea/gym_backend.iml" filepath="$PROJECT_DIR$/../gym_backend-development/.idea/gym_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mysite/.idea/mysite.iml" filepath="$PROJECT_DIR$/../mysite/.idea/mysite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../srms_backend/.idea/srms.iml" filepath="$PROJECT_DIR$/../srms_backend/.idea/srms.iml" />
+    </modules>
+  </component>
+</project>

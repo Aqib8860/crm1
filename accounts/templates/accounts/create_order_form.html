@@ -1,0 +1,14 @@
+{% extends 'accounts/main.html' %}
+{% block title %} Create Order {% endblock %}
+
+{% block content %}
+    <h1>Create Order</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        {% for form in formset %}
+            {{ formset.management_form }}
+            {{ formset }}
+        {% endfor %}
+        <input type="submit" class="btn btn-primary">
+    </form>
+{% endblock %}

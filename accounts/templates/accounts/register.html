@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/bootstrap/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/bootstrap/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/css/main.css' %}">
+    <script rel="stylesheet" type="text/css" src="{% static 'accounts/js/bootstrap.min.js' %}"></script>
+    <script rel="stylesheet" type="text/css" src="{% static 'accounts/js/bootstrap.js' %}"></script>
+    <title>Register</title>
+</head>
+<body>
+    <h1>Signup</h1>
+    <form action="{% url 'accounts:register' %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <p>Already have an account <a href="{% url 'accounts:login' %}">Login!</a></p>
+        <input type="submit" class="btn btn-primary" value="Register">
+    </form>
+</body>
+</html>

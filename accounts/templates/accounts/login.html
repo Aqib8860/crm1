@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/bootstrap/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/bootstrap/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/css/main.css' %}">
+    <script rel="stylesheet" type="text/css" src="{% static 'accounts/js/bootstrap.min.js' %}"></script>
+    <script rel="stylesheet" type="text/css" src="{% static 'accounts/js/bootstrap.js' %}"></script>
+    <title>Login</title>
+</head>
+<body>
+<h1>Login</h1>
+    {% for message in messages %}
+        <p class="alert alert-danger">{{ message }}</p>
+    {% endfor %}
+    <form action="{% url 'accounts:login' %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <p>Don't have an account! <a href="{% url 'accounts:register' %}">Register</a></p>
+        <input type="submit" class="btn btn-primary" value="Login">
+    </form>
+</body>
+</html>
